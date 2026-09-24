@@ -1,42 +1,253 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
+
+    <title>Kasten-Cara Dela Cruz | IT Student</title>
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
         <a href="#" class="logo">Kasten-Cara</a>
 
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+
+
+    <!-- HOME -->
+    <section class="home" id="home">
+
         <div class="home-img">
-            <img src="main.jpg" alt="">
+            <img src="main.jpg" alt="Kasten-Cara Dela Cruz">
         </div>
+
         <div class="home-content">
-            <h1>Hi, It's <span>KC</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <p>2nd year Information Technology student at PHINMA University of Pangasinan.</p>
+
+            <h1>Hi, I'm <span>KC</span></h1>
+
+            <h3 class="typing-text">
+                I'm an <span>Information Technology Student</span>
+            </h3>
+
+            <p>
+                A Bachelor of Science in Information Technology student at
+                PHINMA University of Pangasinan with an interest in UI/UX
+                design, web development, and networking.
+            </p>
+
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/kc-dela-cruz-5b131a2a1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/itskaycee" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/kxstn_cara/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://www.linkedin.com/in/kc-dela-cruz-5b131a2a1/"
+                    target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/itskaycee"
+                    target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/kxstn_cara/"
+                    target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
             </div>
-            <a href="mailto:delacruzkasten@gmail.com?subject=Nice to Meet You!&body=Hi, I wanted to say hello." class="btn">Send me a message here.</a>
+
+            <a href="mailto:delacruzkasten@gmail.com"
+                class="btn">
+                Contact Me
+            </a>
+
         </div>
+
     </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-content">
+
+            <h2>About <span>Me</span></h2>
+
+            <p>
+                I am an Information Technology student interested in
+                technology, design, and problem-solving. I enjoy learning
+                about UI/UX design, web development, networking, and other
+                areas of information technology. I am continuously improving
+                my technical and communication skills through academic
+                projects and hands-on activities.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+
+        <div class="section-content">
+
+            <h2>My <span>Skills</span></h2>
+
+            <div class="skills-container">
+
+                <div class="skill-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Technical Skills</h3>
+                    <p>
+                        HTML, CSS, JavaScript, Java, Python, PHP,
+                        Figma, and basic web development.
+                    </p>
+                </div>
+
+                <div class="skill-box">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>
+                        User interface design, layout design,
+                        wireframing, and prototyping.
+                    </p>
+                </div>
+
+                <div class="skill-box">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p>
+                        Basic networking concepts, configuration,
+                        and troubleshooting.
+                    </p>
+                </div>
+
+                <div class="skill-box">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Core Work Skills</h3>
+                    <p>
+                        Problem Solving, Teamwork, Communication,
+                        Adaptability, and Project Management.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+
+        <div class="section-content">
+
+            <h2>My <span>Education</span></h2>
+
+            <div class="education-box">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <h3>Bachelor of Science in Information Technology</h3>
+
+                <p>
+                    PHINMA University of Pangasinan
+                </p>
+
+                <span>July 2023 – Present</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+
+        <div class="section-content">
+
+            <h2>My <span>Experience</span></h2>
+
+            <div class="experience-box">
+
+                <i class="fa-solid fa-briefcase"></i>
+
+                <h3>Work Immersion / OJT</h3>
+
+                <h4>Dasol Catholic School</h4>
+
+                <p>
+                    Participated in a work immersion experience and
+                    gained exposure to a professional working environment,
+                    workplace communication, and basic technical tasks.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <div class="section-content">
+
+            <h2>Contact <span>Me</span></h2>
+
+            <p>
+                Feel free to connect with me for academic, professional,
+                or technology-related opportunities.
+            </p>
+
+            <div class="contact-info">
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    delacruzkasten@gmail.com
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-github"></i>
+                    github.com/itskaycee
+                </p>
+
+            </div>
+
+            <a href="mailto:delacruzkasten@gmail.com"
+                class="btn">
+                Send Me a Message
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 Kasten-Cara Dela Cruz. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
+```
